@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .formInput{
+    @apply border border-formGreyishBlue outline-none p-4 rounded-md font-poppins font-semibold w-full
+  }
+  .formInput:focus{
+    @apply border-formPurple
+  }
+
+  .errMsg{
+    @apply mt-1 mb-5 select-none text-right text-xs font-poppins text-formRed italic font-medium
+  }
+
+  .formInput.errInput{
+    @apply border-formRed text-formRed
+  }
+}
+
+.stuff{
+  color: hsla(249, 10%, 26%, 0.214);
+}
