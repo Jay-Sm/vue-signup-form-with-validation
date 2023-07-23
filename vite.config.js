@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vue-signup-form-with-validation/',
+  base: '/vue-signup-form-with-validation',
   plugins: [vue()],
   resolve: {
     alias: {
