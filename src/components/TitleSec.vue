@@ -1,7 +1,8 @@
 <template>
-  <div class="flex-col flex w-1/2">
-    <h1 class="text-5xl font-bold font-poppins text-white w-3/4">Learn to code by watching others</h1>
-    <p class="mt-7 text-white w-11/12 text-lg">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+  <div class="flex-col flex w-1/2 mr-2">
+    <h1 class="text-5xl font-bold font-poppins text-white w-3/4 min-w-min">Learn to code by watching others</h1>
+    <p class="mt-7 text-white w-11/12 text-lg">See how experienced developers solve problems in real-time. Watching
+      scripted tutorials is great,
       but understanding how developers think is invaluable. </p>
   </div>
 </template>

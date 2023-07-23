@@ -48,7 +48,7 @@ import { ref } from 'vue'
 
 let firstName = ref('');
 let lastName = ref('');
-let email = ref('JohnDoe@mail.com');
+let email = ref('');
 let password = ref('');
 
 

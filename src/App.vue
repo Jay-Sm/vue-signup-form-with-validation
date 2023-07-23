@@ -23,5 +23,6 @@ body {
   align-items: center;
   background-color: hsl(0, 100%, 74%);
   background-image: url("./assets/images/bg-intro-desktop.png");
+  background-size: cover;
 }
 </style>
